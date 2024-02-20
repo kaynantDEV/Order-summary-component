@@ -105,6 +105,10 @@ main{
     font-weight: 700;
     border-radius: 10px;
     box-shadow: 0px 10px 20px 5px hsla(223, 47%, 23%, 0.276);
+    transition: opacity 0.3s ease-in-out;
+}
+.button-payment:hover{
+    opacity: 0.8;
 }
 .button-cancel{
     font-size: 0.8em;
